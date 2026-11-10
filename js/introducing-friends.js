@@ -31,28 +31,28 @@
   const profiles = {
     momo: {
       name: "모모",
-      image: "./images/INTRODUCING_FRIENDS/badge2.png",
+      image: "./images/Introducing_Friends/badge2.png",
       intro: "“숲으로 돌아갈 방법, 같이 찾아보자!”",
       role: "숲을 되살릴 방법을 찾으러 지구로 떠나는 맏이",
       moment: "친구들과 카페를 열자는 생각을 가장 먼저 꺼내요"
     },
     nyami: {
       name: "냠이",
-      image: "./images/INTRODUCING_FRIENDS/badge4.png",
+      image: "./images/Introducing_Friends/badge4.png",
       intro: "“내가 키운 멜론으로 디저트를 만들어볼래!”",
       role: "직접 키운 멜론으로 새로운 디저트를 만드는 친구",
       moment: "첫 디저트를 친구들과 나누며 카페의 시작을 열어요"
     },
     lulu: {
       name: "루루",
-      image: "./images/INTRODUCING_FRIENDS/badge3.png",
+      image: "./images/Introducing_Friends/badge3.png",
       intro: "“잊지 않게 내가 전부 적어둘게!”",
       role: "여행의 기록과 카페의 레시피를 맡은 친구",
       moment: "새로 배운 레시피를 책에 적어 다음 메뉴로 이어가요"
     },
     meli: {
       name: "멜리",
-      image: "./images/INTRODUCING_FRIENDS/badge1.png",
+      image: "./images/Introducing_Friends/badge1.png",
       intro: "“우리 카페에 와줘서 고마워요!”",
       role: "손님과 친구들에게 마음을 전하는 막내",
       moment: "첫 손님 앞에서 용기 내어 먼저 인사해요"
