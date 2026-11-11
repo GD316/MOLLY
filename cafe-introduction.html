@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="./css/brand-introduction.css">
   <link rel="stylesheet" href="./css/cafe-introduction.css">
+  <link rel="stylesheet" href="./css/mobile-nav.css?v=20261111">
 </head>
 <body>
   <a class="skip-link" href="#main">본문 바로가기</a>
@@ -23,7 +24,10 @@
       <a class="brand-mark" href="./index.html#brand" aria-label="MOLLY 메인 페이지">
         <img src="./images/Brand_Introduction/logo.png" alt="MOLLY">
       </a>
-      <nav class="main-nav" aria-label="주요 메뉴">
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="main-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-navigation" aria-label="주요 메뉴">
         <a href="./brand-introduction.html">Brand</a>
         <a href="./cafe-introduction.html" aria-current="page">Cafe</a>
         <a href="./index.html#menu">Menu</a>
@@ -98,5 +102,6 @@
   </footer>
 
   <script src="./js/brand-introduction.js" defer></script>
+  <script src="./js/mobile-nav.js?v=20261111" defer></script>
 </body>
 </html>
