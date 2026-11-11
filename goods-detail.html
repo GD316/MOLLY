@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/paperlogy.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="css/style.css?v=best-trio-fairy-labels-6">
-  <link rel="stylesheet" href="css/goods-detail.css?v=goods-assets-optimized-15">
+  <link rel="stylesheet" href="css/goods-detail.css?v=goods-assets-optimized-16">
 </head>
 <body class="goods-detail-page">
   <div id="wrap">
@@ -63,13 +63,17 @@
               <p class="goods-product-note"><span class="goods-note-dot" aria-hidden="true"></span><span data-product-note>작은 일상에 귀여움을 더하는 MOLLY 굿즈</span></p>
 
               <div class="goods-product-actions">
-                <a class="goods-primary-link" href="./index.html#goods">굿즈 목록으로 <span aria-hidden="true">↗</span></a>
+                <div class="goods-product-action-main">
+                  <button class="goods-buy-button" type="button" data-buy-button aria-controls="purchase-feedback" aria-expanded="false">구매하기 <span aria-hidden="true">↗</span></button>
+                  <a class="goods-secondary-link" href="./index.html#goods">굿즈 목록으로</a>
+                </div>
                 <div class="goods-step-links" aria-label="다른 상품">
                   <a data-product-prev href="./goods-detail.html" aria-label="이전 굿즈">← 이전</a>
                   <span data-product-step>01 / 10</span>
                   <a data-product-next href="./goods-detail.html" aria-label="다음 굿즈">다음 →</a>
                 </div>
               </div>
+              <p class="goods-purchase-feedback" id="purchase-feedback" data-purchase-feedback role="status" aria-live="polite" hidden>현재 포트폴리오 시안에서는 실제 주문과 결제가 진행되지 않습니다.</p>
             </div>
           </div>
         </div>
@@ -135,6 +139,6 @@
       </div>
     </footer>
   </div>
-  <script src="js/goods-detail.js?v=goods-prices-11" defer></script>
+  <script src="js/goods-detail.js?v=goods-prices-12" defer></script>
 </body>
 </html>

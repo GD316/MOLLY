@@ -15,7 +15,7 @@
     if (pageProgress) pageProgress.setAttribute("aria-valuenow", String(Math.round(progress)));
 
     const activationLine = (document.querySelector(".site-header")?.getBoundingClientRect().height || 0) + 12;
-    let current = sectionNavLinks[0];
+    let current = null;
     sectionNavLinks.forEach((item) => {
       if (item.target.getBoundingClientRect().top <= activationLine) current = item;
     });

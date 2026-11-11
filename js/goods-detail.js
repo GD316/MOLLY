@@ -225,6 +225,15 @@
   if (previousLink) previousLink.href = `./goods-detail.html?item=${previous.id}`;
   if (nextLink) nextLink.href = `./goods-detail.html?item=${next.id}`;
 
+  const buyButton = byId("[data-buy-button]");
+  const purchaseFeedback = byId("[data-purchase-feedback]");
+  if (buyButton && purchaseFeedback) {
+    buyButton.addEventListener("click", () => {
+      purchaseFeedback.hidden = false;
+      buyButton.setAttribute("aria-expanded", "true");
+    });
+  }
+
   const relatedContainer = byId("[data-related-products]");
   if (relatedContainer) {
     const related = [1, 2, 3].map((offset) => products[(currentIndex + offset) % products.length]);

@@ -254,7 +254,13 @@
   margin-top: 30px;
 }
 
-.goods-primary-link {
+.goods-product-action-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.goods-buy-button {
   display: inline-flex;
   min-height: 48px;
   align-items: center;
@@ -265,18 +271,60 @@
   padding: 0 22px;
   color: #fffdf4;
   background: #315d45;
+  font: inherit;
   font-size: 13px;
   font-weight: 750;
+  cursor: pointer;
   transition: color .2s ease, background-color .2s ease, transform .2s ease;
 }
 
-.goods-primary-link:hover {
+.goods-buy-button:hover {
   color: #315d45;
   background: #e7efcf;
   transform: translateY(-2px);
 }
 
-.goods-primary-link span,
+.goods-buy-button:focus-visible {
+  outline: 3px solid #a9c844;
+  outline-offset: 3px;
+}
+
+.goods-buy-button span {
+  font-size: 16px;
+}
+
+.goods-purchase-feedback {
+  margin-top: 12px;
+  color: #6e6657;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.goods-purchase-feedback[hidden] {
+  display: none;
+}
+
+.goods-secondary-link {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d9e3b1;
+  border-radius: 999px;
+  padding: 0 18px;
+  color: #315d45;
+  background: #fffdf6;
+  font-size: 13px;
+  font-weight: 750;
+  transition: color .2s ease, background-color .2s ease, transform .2s ease;
+}
+
+.goods-secondary-link:hover {
+  color: #315d45;
+  background: #e7efcf;
+  transform: translateY(-2px);
+}
+
 .goods-related-all span {
   font-size: 16px;
 }
@@ -774,7 +822,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .goods-primary-link,
+  .goods-buy-button,
+  .goods-secondary-link,
   .goods-step-links a,
   .goods-related-all,
   .goods-related-card {
