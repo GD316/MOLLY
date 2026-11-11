@@ -13,7 +13,7 @@
       story: "모모·냠이·루루·멜리와 MOLLY 로고를 담은 키캡 세트예요.",
       points: ["요정 4명 + MOLLY 로고", "키캡 5종 구성", "키보드 위 포인트"],
       cardDescription: "요정 얼굴과 로고를 담은 키캡 5종",
-      price: ""
+      price: "30,000원"
     },
     {
       id: "fairy-pen-sticker-set",
@@ -58,7 +58,7 @@
       storyTitle: "가방 속 루루의 작은 포인트",
       story: "루루를 담은 파우치로 작은 소지품을 가볍게 챙겨 보세요.",
       points: ["루루 캐릭터 디자인", "작은 소지품 수납", "가방 속 데일리 파우치"],
-      price: ""
+      price: "15,000원"
     },
     {
       id: "molly-hoodie",
@@ -88,7 +88,7 @@
       storyTitle: "책상 위 작은 요정",
       story: "멜리 아크릴 스탠드로 책상이나 선반을 꾸며 보세요.",
       points: ["멜리 캐릭터 디자인", "세워 두는 아크릴", "책상·선반 포인트"],
-      price: ""
+      price: "12,000원"
     },
     {
       id: "momo-plush",
@@ -118,7 +118,7 @@
       storyTitle: "손끝에 매달린 모모",
       story: "모모 장식과 연두빛 비즈를 더한 스트랩으로 휴대폰을 꾸며 보세요.",
       points: ["모모 캐릭터 장식", "연두빛 비즈", "손목에 거는 폰 스트랩"],
-      price: ""
+      price: "8,000원"
     },
     {
       id: "lulu-foldable-bag",
@@ -133,7 +133,7 @@
       storyTitle: "어디를 가든 함께하는 루루",
       story: "루루 장바구니와 파우치로 장 볼 때도 가볍게 함께해요.",
       points: ["루루 캐릭터 디자인", "장바구니·파우치 구성", "사용 후 파우치 보관"],
-      price: ""
+      price: "9,000원"
     },
     {
       id: "melon-forest-mousepad",
