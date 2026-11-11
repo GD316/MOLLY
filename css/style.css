@@ -8,7 +8,7 @@
   font-display: swap;
 }
 
-/* Reset and fixed design viewport from the supplied project notes. */
+/* Reset shared by the responsive site pages. */
 html,
 body,
 div,
@@ -67,7 +67,7 @@ body {
 }
 
 #wrap {
-  min-width: 1360px;
+  min-width: 0;
 }
 
 :root {
@@ -89,7 +89,7 @@ html {
 }
 
 body {
-  min-width: 1000px;
+  min-width: 320px;
   background: var(--page);
   color: var(--brown);
   font-family: var(--font);
@@ -1857,7 +1857,7 @@ a:focus-visible {
 
 /* Readable small-screen layout: preserve the information hierarchy instead
    of shrinking the popup and footer text to fit the desktop three-column row. */
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   html,
   body {
     -webkit-text-size-adjust: 100%;
@@ -2332,7 +2332,7 @@ a:focus-visible {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .hero-bingsu-copy {
     left: 38px;
     width: 43%;
@@ -2834,7 +2834,7 @@ a:focus-visible {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
   .friends-section {
     padding: 30px 0 44px;
   }
@@ -3188,7 +3188,7 @@ a:focus-visible {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
   .fairy-scene-note {
     min-height: 76px;
     gap: 13px;

@@ -458,7 +458,7 @@ body { color: var(--friends-copy); background: var(--friends-cream); }
   .friend-badge-row { gap: 18px; }
   .badge-image { width: clamp(104px, 15vw, 140px); }
 }
-@media (max-width: 650px) {
+@media (max-width: 767px) {
   .header-inner { width: calc(100% - 28px); }
   .brand-mark { width: 72px; }
   .main-nav { gap: clamp(7px, 2vw, 12px); font-size: 9px; letter-spacing: 0; }
@@ -521,7 +521,7 @@ body { color: var(--friends-copy); background: var(--friends-cream); }
   .profile-facts { margin-top: 14px; padding-top: 13px; }
   .profile-facts div { grid-template-columns: 76px 1fr; font-size: 11px; }
 }
-@media (max-width: 390px) {
+@media (max-width: 480px) {
   .main-nav { gap: 6px; font-size: 8px; }
   .brand-mark { width: 64px; }
   .profile-dialog-inner { grid-template-columns: 78px minmax(0,1fr); gap: 13px; padding-inline: 17px; }

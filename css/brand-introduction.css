@@ -524,7 +524,7 @@ button { font: inherit; }
   .letter-trigger { width: min(330px, 62%); }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .main-nav { gap: clamp(9px, 2.3vw, 15px); font-size: 11px; }
   .site-footer { min-height: 260px; padding: 50px 0 38px; }
   .footer-content {
