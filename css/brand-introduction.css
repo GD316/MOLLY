@@ -500,6 +500,8 @@ button { font: inherit; }
 }
 
 @media (max-width: 800px) {
+  /* Mobile AOS transforms can protrude beyond the viewport; clip them within this page. */
+  #main { overflow: hidden; }
   .overview-inner,
   .story-inner,
   .mail-inner {
